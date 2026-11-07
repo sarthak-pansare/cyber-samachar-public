@@ -1,0 +1,47 @@
+node_modules/
+.next/
+.playwright-cli/
+outputs/
+research_build/
+gsi_chunks/
+
+# Local environment files contain deployment and service secrets.
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.preview
+!.env.example
+
+# Local credentials and infrastructure keys.
+Infrastructure/Secrets/
+Infrastructure/OCI-Keys/
+
+# Local provider state and unrelated personal/side-project drafts.
+supabase/.temp/
+Infrastructure/Notes/010-notes.txt
+Infrastructure/Notes/Notes.txt
+
+*.log
+*.tmp
+*.bak
+*.bak-*
+
+# Local/generated workflow snapshots can contain sensitive configuration.
+*workflow*.json
+remote-workflow-*.json
+
+# Large local research artifacts.
+*.html
+!public/Cyber Samachar Unified.html
+!public/features-only.html
+!public/auth.html
+!public/Guest-Profile.html
+gsi_*.json
+overpass_*.json
+Research/Pimpri-Outreach/raw/
+Research/Pimpri-Outreach/outputs/
+Research/Pimpri-Outreach/tools/research_build/node_modules/
+
+.vercel
